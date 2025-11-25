@@ -1,0 +1,258 @@
+html, body {
+  margin: 0;             
+  height: 100%;       
+  overflow-x:hidden;
+  scroll-behavior: smooth;
+  font-family:"verdana", "calibri"
+}
+
+
+.menu{
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    font-size:24px;
+    font-family: "verdana", "calibri";
+    background-color: rgb(0,128,0);
+    color: rgb(245,245,245);
+    gap:25px;
+    margin:0;
+    height:100px;
+    
+}
+
+.menu img{
+    position:absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.menu a:link, a:visited, a:active, a:hover{
+    text-decoration:none;
+    color:white
+}
+
+.menu a:hover{
+    background-color: rgb(4, 44, 4);
+    border: 1px solid black;
+    padding: 35px 5px
+}
+
+
+
+.disclaimer{
+    background-color:rgb(144,238,144);
+    padding: 30px 0 40px;    
+}
+
+
+
+
+.disclaimer span, p{
+    color:white;
+    font-family: "verdana", "calibri";
+    
+}
+
+.disclaimer span{
+    font-weight:bold;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding:20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.disclaimer p{
+    font-size:20px;
+    font-weight:bold;
+    text-align: justify;
+    padding: 0 40px;
+}
+
+
+.disclaimer img{
+    display: block;
+    margin: 0 auto;
+    padding:30px;
+    max-width:90%;
+    height:auto;
+}
+
+
+.animais{
+    background-color: rgb(0, 128, 128);
+    padding:10px 40px 30px;
+
+}
+
+.animais p{
+    text-align:center;
+    font-size:40px;
+    font-weight: bold;
+    padding: 20px
+}
+
+.container{
+    display: flex;
+    flex-direction:row;
+    gap:15px;
+    justify-content: center;
+    text-align:center
+}
+
+.animais img{
+    width:250px;
+    height:200px;
+    object-fit:cover;
+    
+}
+
+.container p{
+    font-size: 15px;
+    border:1px solid white;
+    background-color:lightslategray;
+    color:black
+}
+
+.line{
+    height: 1px;              
+    width: 100vw;              
+    background-color: white;  
+    margin-left: calc(-40px);
+    border:none
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding-bottom: 40px
+}
+
+input, select{
+    width:400px;
+    height:50px;
+    margin: 0 auto;
+    border-radius: 12px;
+    border:none;
+    padding:5px
+}
+
+textarea{
+    width:400px;
+    height:80px;
+    margin: 0 auto;
+    border-radius: 12px;
+    border:none;
+    padding:5px
+}
+
+button{
+    background-color:rgb(0, 128, 128);
+    color:white;
+    margin: 0 auto;
+    width:60px;
+    height:30px;
+    border-radius: 16px;
+    border:none
+}
+
+label{
+    font-size:20px;
+}
+
+
+
+.contato{
+    background-color: rgb(4, 58, 4);
+    text-align:center;
+    color:white;
+    font-size:28px;
+    padding-top: 20px;
+}
+
+
+.rodape{
+    background-color: rgb(0,128,0);
+    color: white;
+    text-align:center;
+    padding: 16px 0;
+}
+
+.rodape p{
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 20px
+}
+
+
+.login {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #90EE90; /* verde claro */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      width: 300px;
+      text-align: center;
+    }
+
+    .login-container h2 {
+      margin-bottom: 20px;
+      color: #006400; 
+      font-size:30px
+    }
+
+    .login-container input {
+        display: block;          
+        margin: 10px auto;       
+        width: 80%;              
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .login-container button {
+      width: 30%;
+      background-color: #006400; 
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+     
+    }
+
+    .login-container button:hover {
+      background-color: #228B22; 
+    }
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column; 
+     }}
+
+@media screen and (max-width=480px){
+}
+
+@media screen and (min-width:360px){
+
+}

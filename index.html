@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encontre o seu PET - VDC</title>
+    <link rel="icon" href="https://png.pngtree.com/png-vector/20210129/ourmid/pngtree-paw-outline-icon-design-template-isolated-png-image_2861362.jpg">
+</head>
+<body>
+    
+    <div class="menu"> 
+        <img src="https://www.vdcmacae.com.br/images/logo.png">
+        <div><a href="#sobre">Sobre</a></div>
+        <div><a href="#animais">Animais</a></div>
+        <div><a href="#contato">Contato</a></div>
+        <div><a href="login.html" style="margin-right: 30px; margin-left:60px">Login</a></div>
+    </div>
+    
+    <div class="disclaimer">
+
+        <span>Vale dos Cristais</span>
+
+        <img src="https://scontent.fgig14-2.fna.fbcdn.net/v/t39.30808-6/480972328_1131759605628606_3716684528037988495_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=gtVlvOzDWmoQ7kNvwFAJxHc&_nc_oc=AdmUwmPXQG5-AI-FMLiGMd_bpCOMaYE4G-W7u40pKJ3TSUNnoFwU1zQZz_mUV51MTzg&_nc_zt=23&_nc_ht=scontent.fgig14-2.fna&_nc_gid=gTLdwfllue3b0R2BOTsQlA&oh=00_AfiUa3OpA5qyIs7yY8oMGU6WkD8zXSd8LnB07gTTA5-n1A&oe=6929925A" alt="Vale dos Cristais visto de cima">
+        
+        <p id="sobre">Este site não é oficial do vale dos cristais,
+            e sim uma iniciativa privada do condômino Daniel para que nossos queridos PETS
+            possam ser catalogados. </p>
+
+           <p>Dessa forma, poderemos encontrar animais perdidos e retorná-los a seus donos.
+            Além disso, se forem identificados animais de rua, esses poderão ser adotados ou contatar os serviços 
+            da prefeitura para lhes dar um novo lar.</p>
+    </div>
+    <div class="animais">
+        <p>Animais</p>
+         <hr class="line">
+        <p id="animais" style="font-size:20px; text-align:left; border:none; color:white; background-color:rgb(0, 128, 128)">Animais registrados</p>
+        <div class="container"> 
+        <div>
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNYCuPVxBszC4r8jOAJBAysthTQ1vgT-9zTHFiUYNLn3G8uDZXkxuAhbW_AAY9ZKsIHp0UqCsslH3DUgSS_ps1yQ9O83PjdcxjGiQUfFCKiQ&s=10" alt="border collie">
+        <p>Nome: Bollie</p>
+         <p>Dono: Fred</p>
+         <p>Lote: 403a</p>
+         <p>Observação: Não</p>
+        </div>
+        <div>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShFJT5QcPXSib4ip3MHAHuDCBLxadkIgsv154qNzpWyYY6j9Qmn-4g5IjNAUtKQ08vpfxNvINMuTJ5LqKqyrPYEhpmyQS_T-L_s1tt43P22g&s=10" alt="gato siâmes">
+          <p>Nome: Tico</p>
+          <p>Dono: Melissa</p>
+          <p>Lote: 7b</p>
+          <p>Observação: Deficiência nas <br>patas traseiras</p>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGRzZxh28mUODMQwrtBjFYaupe6kKZwtqwyWFtU8rlwsL2Zf_gjT6AmLy-dSIx0Q03_wcEBrLCE1Glab1oVZECtq2fB7SvQvnl2-DRx5lb&s=10" alt="papagaio">
+            <p>Nome: Vitrola</p>
+            <p>Dono: Caio</p>
+            <p>Lote: 245a</p>
+            <p>Observação: Idoso</p>
+        </div>
+        </div>
+        <hr class="line">
+        <p style="font-size:20px; text-align:left; border:none; color:white; background-color:rgb(0, 128, 128);">Animais sem dono</p>
+        <div class="container">
+            <div>
+            <img src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/39209_EF3C5A99E425C9E7.jpg?w=1200&h=900&crop=0" alt="tartaruga">
+            <p>Última localização: Em frente ao lote 998b</p>
+            </div>
+            <div>
+            <img src="https://static.escolakids.uol.com.br/2021/11/coelho.jpg">
+            <p>Última localização: Próximo ao clube</p>
+            <br><br>
+            </div>
+        </div>
+    </div>
+
+        <div class="contato">
+            <p id="contato"> Alguma dúvida? Entre em contato</p>
+             <hr class="line">
+            
+            <form action="mailto:danielrfranco10@gmail.com" method="post">
+  
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+
+            <label for="animal">Animal doméstico favorito:</label>
+            <select id="animal" name="animal">
+                <option value="cachorro">Cachorro</option>
+                <option value="gato">Gato</option>
+                <option value="papagaio">Papagaio</option>
+                <option value="coelho">Coelho</option>
+                <option value="outro">Outro</option>
+            </select>
+            
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem"></textarea>
+            
+            
+            <button type="submit">Enviar</button>
+            </form>
+
+        </div>
+        <div class="rodape">
+            <p>Desenvolvido por Daniel Franco - RU: 3635348</p>
+        </div>
+
+   
+</body>
+</html>
